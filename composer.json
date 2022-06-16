@@ -8,12 +8,15 @@
   },
   "autoload": {
     "psr-0": {
-      "model": "LegacyToLambda\\Model\\"
+      "LegacyToLambda\\": ""
+    },
+    "psr-4": {
+      "LegacyToLambda\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "tests": "Test\\LegacyToLambda\\"
+      "Test\\LegacyToLambda\\": "tests"
     }
   }
 }

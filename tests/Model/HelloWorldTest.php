@@ -1,8 +1,6 @@
 <?php
 
-namespace Test\LegacyToLambda\Greet;
-
-include_once 'model/HelloWorld.php';
+namespace Test\LegacyToLambda\Model;
 
 use LegacyToLambda\Model\HelloWorld;
 use PHPUnit\Framework\TestCase;
