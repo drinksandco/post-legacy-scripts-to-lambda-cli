@@ -4,7 +4,8 @@
   "type": "project",
   "license": "MIT",
   "require": {
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "symfony/console": "^6.1"
   },
   "autoload": {
     "psr-0": {
