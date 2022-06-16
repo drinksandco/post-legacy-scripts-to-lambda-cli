@@ -1,0 +1,14 @@
+{
+  "name": "drinksandco/legacy-to-lambda",
+  "description": "Example project for Medium Post in June - July 2022",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "model": "LegacyToLambda\\Model\\"
+    }
+  }
+}
