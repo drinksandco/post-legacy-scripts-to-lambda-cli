@@ -10,5 +10,10 @@
     "psr-0": {
       "model": "LegacyToLambda\\Model\\"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests": "Test\\LegacyToLambda\\"
+    }
   }
 }
