@@ -2,11 +2,12 @@
 <?php
 require 'vendor/autoload.php';
 
+use LegacyToLambda\Ui\Cli\GreetCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application('echo', '1.0.0');
+$command = new GreetCommand();
 
-//$application->add($command);
+$application->add($command);
 
-//$application->setDefaultCommand($command->getName(), true);
 $application->run();
