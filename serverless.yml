@@ -1,0 +1,22 @@
+service: post-legacy-to-lambda
+
+provider:
+    name: aws
+    region: eu-west-1
+    runtime: provided.al2
+
+plugins:
+    - ./vendor/bref/bref
+
+functions:
+    console:
+        handler: bin/console
+        description: ''
+        layers:
+            - ${bref:layer.php-81}
+            - ${bref:layer.console}
+
+# Exclude files from deployment
+package:
+    patterns:
+        - '!tests/**'
